@@ -1,0 +1,6 @@
+# Netlify Redirects
+# OAuth callback - serve index.html so client-side JS can handle the token
+/callback    /index.html    200
+
+# SPA fallback - all routes serve index.html
+/*           /index.html    200
